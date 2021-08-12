@@ -112,7 +112,7 @@ syntax keyword typescriptReserved constructor declare as interface module abstra
 "" Programm Keywords"{{{
 syntax keyword typescriptSource import export from as
 syntax keyword typescriptIdentifier arguments this void
-syntax keyword typescriptStorageClass let var const
+syntax keyword typescriptStorageClass let var const private protected public override
 syntax keyword typescriptOperator delete new instanceof typeof
 syntax keyword typescriptBoolean true false
 syntax keyword typescriptNull null undefined
