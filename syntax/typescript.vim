@@ -106,6 +106,9 @@ if get(g:, 'typescript_ignore_browserwords', 0)
   syntax keyword typescriptEventListenerMethods contained scrollIntoView addEventListener dispatchEvent removeEventListener preventDefault stopPropagation
 endif
 " }}}
+"" Reserved Keywords"{{{
+syntax keyword typescriptReserved constructor declare as interface module abstract enum int short export interface static byte extends long super char final native synchronized class float package throws goto private transient debugger implements protected volatile double import public type namespace from get set keyof
+" }}}
 "" Programm Keywords"{{{
 syntax keyword typescriptSource import export from as
 syntax keyword typescriptIdentifier arguments this void
@@ -130,8 +133,6 @@ syntax keyword typescriptGlobalNodeObjects  module exports global process __dirn
 syntax keyword typescriptUtility Partial Required Readonly Record Pick Omit Exclude Extract NonNullable Parameters ConstructorParameters ReturnType InstanceType ThisParameterType OmitThisParameter ThisType Uppercase Lowercase Capitalize Uncapitalize
 
 syntax keyword typescriptExceptions try catch throw finally Error EvalError RangeError ReferenceError SyntaxError TypeError URIError
-
-syntax keyword typescriptReserved constructor declare as interface module abstract enum int short export interface static byte extends long super char final native synchronized class float package throws goto private transient debugger implements protected volatile double import public type namespace from get set keyof
 "}}}
 "" typescript/DOM/HTML/CSS specified things"{{{
 
